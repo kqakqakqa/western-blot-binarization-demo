@@ -1,0 +1,17 @@
+<input type="file" id="fileInput" onchange="fileInputOnChange()">
+<script src="new.js"></script>
+<div id="imageContainer"></div>
+<div id="pixelGrid"></div>
+<div id="canvasContainer">
+    <!--lower layer-->
+    <div id="canvasInputContainer"></div>
+    <div id="canvasBinarizationContainer"></div>
+    <div id="canvasInvertionContainer"></div>
+    <!--upper layer-->
+</div>
+<link rel="stylesheet" type="text/css" href="new.css" />
+
+<div class="slider-container">
+    <input type="range" min="0" max="255" step="1" value="0" class="slider" id="myRange" oninput="sliderOnInput()">
+    <p>Value: <span id="demo">0</span></p>
+</div>

@@ -1,0 +1,46 @@
+/*draw as divs*/
+/*
+#pixelGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+#pixelGrid div {
+    display: flex;
+    flex-direction: row;
+}
+*/
+
+/*draw as canvas*/
+#canvasContainer {
+    display: inline-grid;
+}
+
+#canvasContainer>* {
+    grid-area: 1 / 1;
+}
+
+#canvasInvertionContainer {
+    opacity: 50%;
+}
+
+.slider-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+    cursor: pointer;
+    /*
+    appearance: none;
+    height: 16px;
+    border-radius: 16px;
+    background: #ddd;
+    */
+}
+
+.slider:hover {
+    opacity: 1;
+}
